@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Django media/static artifacts
+media/
+staticfiles/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDE/OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
